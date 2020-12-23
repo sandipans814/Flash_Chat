@@ -34,7 +34,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 //      else if(status == AnimationStatus.dismissed)
 //        controller.forward();
 //    });
-
     controller.addListener(() {
       setState(() {});
     });
